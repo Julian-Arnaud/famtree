@@ -55,7 +55,6 @@ export class AppComponent {
       // Maillot
       this.coords.push(new PositionModel(45.983611, 0.8975, 'maillot.png'));
       this.coords.push(new PositionModel(45.678611, 0.221111, 'maillot.png'));
-      this.coords.push(new PositionModel(46.396667, 1.088611, 'maillot.png'));
       this.coords.push(new PositionModel(46.003611, 0.850833, 'maillot.png'));
       this.coords.push(new PositionModel(45.556111, 0.043611, 'maillot.png'));
       this.coords.push(new PositionModel(46.355833, 0.108889, 'maillot.png'));

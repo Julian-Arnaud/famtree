@@ -196,7 +196,6 @@ export class TreeMaillotComponent {
     fillCoords() {
         this.coords.push(new PositionModel(45.983611, 0.8975));
         this.coords.push(new PositionModel(45.678611, 0.221111));
-        this.coords.push(new PositionModel(46.396667, 1.088611));
         this.coords.push(new PositionModel(46.003611, 0.850833));
         this.coords.push(new PositionModel(45.556111, 0.043611));
         this.coords.push(new PositionModel(46.355833, 0.108889));
