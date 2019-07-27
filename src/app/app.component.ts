@@ -20,6 +20,9 @@ export class AppComponent {
 
   display(val) {
     switch (val) {
+        case 0:
+          this.branch = 0;
+          break;
         case 1:
           this.branch = 1;
           break;

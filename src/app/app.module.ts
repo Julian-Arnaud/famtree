@@ -10,6 +10,7 @@ import {TreeMaillotComponent} from './components/branch-maillot/tree-maillot.com
 import {TreeBartheComponent} from './components/branch-barthe/tree-barthe.component';
 import {TreeArnaudComponent} from './components/branch-arnaud/tree-arnaud.component';
 import {DescriptionsService} from './services/descriptions.service';
+import {TreeCoreComponent} from './components/branch-core/tree-core.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import {DescriptionsService} from './services/descriptions.service';
       TreeMainguyComponent,
       TreeMaillotComponent,
       TreeBartheComponent,
-      TreeArnaudComponent
+      TreeArnaudComponent,
+      TreeCoreComponent
   ],
   imports: [
     BrowserModule,

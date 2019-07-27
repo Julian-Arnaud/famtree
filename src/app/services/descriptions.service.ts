@@ -9,16 +9,19 @@ export class DescriptionsService {
     descriptionsMaillot: OptionalInformationModel[];
     descriptionsArnaud: OptionalInformationModel[];
     descriptionsBarthe: OptionalInformationModel[];
+    descriptionsCore: OptionalInformationModel[];
 
     constructor() {
         this.descriptionsMainguy = [];
         this.descriptionsMaillot = [];
         this.descriptionsArnaud = [];
         this.descriptionsBarthe = [];
+        this.descriptionsCore = [];
         this.populateMainguy();
         this.populateMaillot();
         this.populateArnaud();
         this.populateBarthe();
+        this.populateCore();
     }
 
     populateMainguy() {
@@ -577,5 +580,9 @@ export class DescriptionsService {
             'Marié à Maria Jeanne PICHALOUP\n'));
         this.descriptionsBarthe.push(new OptionalInformationModel(63, 'Maria Jeanne PICHALOUP\n' +
             'Mariée à Jacques MAUVAISIN'));
+    }
+
+    populateCore() {
+
     }
 }
