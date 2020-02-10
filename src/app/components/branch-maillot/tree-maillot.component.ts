@@ -154,9 +154,57 @@ export class TreeMaillotComponent {
                             children: [
                                 {
                                     id: 28, name: 'Jacques MAFFRE', classes: ['maffre'],
+                                    children: [
+                                        {
+                                            id:56, name: 'Pierre MAFFRE', classes: ['maffre'],
+                                            children: [
+                                                {
+                                                    id: 112, name: 'Pierre MAFFRE', classes: ['maffre']
+                                                },
+                                                {
+                                                    id: 113, name: 'Magdelaine BRUNETEAU'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            id: 57, name: 'Françoise PEIGNON', classes: ['peignon'],
+                                            children: [
+                                                {
+                                                    id: 114, name: 'Louis PEIGNON', classes: ['peignon']
+                                                },
+                                                {
+                                                    id: 115, name: 'Marie MARGOT'
+                                                }
+                                            ]
+                                        }
+                                    ]
                                 },
                                 {
-                                    id: 29, name: 'Marie BRAULT'
+                                    id: 29, name: 'Marie BRAULT', classes: ['brault'],
+                                    children: [
+                                        {
+                                            id: 58, name: 'Louis BRAULT', classes: ['brault'],
+                                            children: [
+                                                {
+                                                    id: 116, name: 'Louis BRAULT', classes: ['brault']
+                                                },
+                                                {
+                                                    id: 117, name: 'Marie DELINEAIRE'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            id: 59, name: 'Marie LEMBERTON', classes: ['lemberton'],
+                                            children: [
+                                                {
+                                                    id: 118, name: 'Jean LEMBERTON', classes: ['lemberton']
+                                                },
+                                                {
+                                                    id: 119, name: 'Jeanne BOURDIN'
+                                                }
+                                            ]
+                                        }
+                                    ]
                                 }
                             ]
                         },
