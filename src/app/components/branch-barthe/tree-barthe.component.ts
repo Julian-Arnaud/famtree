@@ -19,10 +19,27 @@ export class TreeBartheComponent {
                             id: 8, name: 'Barthélémy BARTHE', isExpanded: true, classes: ['barthe'],
                             children: [
                                 {
-                                    id: 16, name: 'Marc BARTHE', classes: ['barthe'],
+                                    id: 16, name: 'Marc BARTHE', isExpanded: true, classes: ['barthe'],
+                                    children: [
+                                        {
+                                            id: 32, name: 'Marc BARTHE', classes: ['barthe']
+                                        },
+                                        {
+                                            id: 33, name: 'Jeanne VIGNOLLES'
+                                        }
+
+                                    ]
                                 },
                                 {
-                                    id: 17, name: 'Jeanne BORDES', classes: ['bordes'],
+                                    id: 17, name: 'Jeanne BORDES', isExpanded: true, classes: ['bordes'],
+                                    children: [
+                                        {
+                                            id: 34, name: 'Barthelemi BORDES', classes: ['bordes']
+                                        },
+                                        {
+                                            id: 35, name: 'Françoise FITERE'
+                                        }
+                                    ]
                                 }
                             ]
                         },
@@ -30,10 +47,26 @@ export class TreeBartheComponent {
                             id: 9, name: 'Catherine BARTHE', isExpanded: true, classes: ['barthe'],
                             children: [
                                 {
-                                    id: 18, name: 'Jean BARTHE', classes: ['barthe'],
+                                    id: 18, name: 'Jean BARTHE', isExpanded: true, classes: ['barthe'],
+                                    children: [
+                                        {
+                                            id: 36, name: 'Dominique BARTHE', classes: ['barthe']
+                                        },
+                                        {
+                                            id: 37, name: 'Marianne GARDELLE'
+                                        }
+                                    ]
                                 },
                                 {
-                                    id: 19, name: 'Guilthérie LABORIE', classes: ['laborie'],
+                                    id: 19, name: 'Guilthérie LABORIE', isExpanded: true, classes: ['laborie'],
+                                    children: [
+                                        {
+                                            id: 38, name: 'Pierre LABORIE', classes: ['laborie']
+                                        },
+                                        {
+                                            id: 39, name: 'Anne ISQUER'
+                                        }
+                                    ]
                                 }
                             ]
                         }

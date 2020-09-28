@@ -22,7 +22,7 @@ export class TreeMainguyComponent {
                                 {
                                     id: 16, name: 'Pas de père' },
                                 {
-                                    id: 17, name: 'Rule MAINGUY', classes: ['mainguy'],
+                                    id: 17, name: 'Roze MAINGUY', classes: ['mainguy']
                                 }
                             ]
                         },
@@ -59,10 +59,26 @@ export class TreeMainguyComponent {
                     id: 5, name: 'Jeanne ROUSSELY', isExpanded: true, classes: ['roussely'],
                     children: [
                         {
-                            id: 10, name: 'Pierre ROUSSELY', classes: ['roussely'],
+                            id: 10, name: 'Pierre ROUSSELY', isExpanded: true, classes: ['roussely'],
+                            children: [
+                                {
+                                    id: 20, name: 'Pierre ROUSSELY', classes: ['roussely']
+                                },
+                                {
+                                    id: 21, name: 'Charlotte BOISSERIE'
+                                }
+                            ]
                         },
                         {
-                            id: 11, name: 'Jeanne CHANSAR'
+                            id: 11, name: 'Jeanne CHANSAR', isExpanded: true, classes: ['chansar'],
+                            children: [
+                                {
+                                    id: 22, name: 'Jean CHANSAR', classes: ['chansar']
+                                },
+                                {
+                                    id: 23, name: 'Jeanne TEILLET'
+                                }
+                            ]
                         }
                     ]
                 }
@@ -94,10 +110,58 @@ export class TreeMainguyComponent {
                     id: 7, name: 'Françoise GUIHAL', isExpanded: true, classes: ['guihal'],
                     children: [
                         {
-                            id: 14, name: 'Julien GUIHAL', classes: ['guihal'],
+                            id: 14, name: 'Julien GUIHAL', isExpanded: true, classes: ['guihal'],
+                            children: [
+                                {
+                                    id: 28, name: 'Jean GUIHAL', isExpanded: true, classes: ['guihal'],
+                                    children: [
+                                        {
+                                            id: 56, name: 'Pierre GUIHAL',classes: ['guihal']
+                                        },
+                                        {
+                                            id: 57, name: 'Françoise BICHON'
+                                        }
+                                    ]
+                                },
+                                {
+                                    id: 29, name: 'Anne CHARPENTIER', isExpanded: true, classes: ['charpentier'],
+                                    children: [
+                                        {
+                                            id: 58, name: 'Guillaume CHARPENTIER', classes: ['charpentier']
+                                        },
+                                        {
+                                            id: 59, name: 'Françoise MICHEL'
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
-                            id: 15, name: 'Marguerite GALAIS'
+                            id: 15, name: 'Marguerite GALAIS',isExpanded: true, classes: ['galais'],
+                            children: [
+                                {
+                                    id: 30, name: 'François GALLAIS', isExpanded: true, classes: ['galais'],
+                                    children: [
+                                        {
+                                            id: 60, name: 'Jacques GALLAIS',classes: ['galais']
+                                        },
+                                        {
+                                            id: 61, name: 'Françoise POIREAU'
+                                        }
+                                    ]
+                                },
+                                {
+                                    id: 31, name: 'Marguerite ORAIN', isExpanded: true,classes: ['orain'],
+                                    children: [
+                                        {
+                                            id: 62, name: 'Jean ORAIN',classes: ['orain']
+                                        },
+                                        {
+                                            id: 63, name: 'Perrine JOYAUX'
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
