@@ -79,10 +79,26 @@ export class TreeBartheComponent {
                             id: 10, name: 'François LABORIE', isExpanded: true, classes: ['laborie'],
                             children: [
                                 {
-                                    id: 20, name: 'Guilheaume LABORIE', classes: ['laborie'],
+                                    id: 20, name: 'Guilheaume LABORIE', isExpanded: true, classes: ['laborie'],
+                                    children: [
+                                        {
+                                            id: 40, name: 'François LABORIE', classes: ['laborie']
+                                        },
+                                        {
+                                            id: 41, name: 'Banarde DUILOR'
+                                        }
+                                    ]
                                 },
                                 {
-                                    id: 21, name: 'Jeanne DUPRAT', classes: ['duprat'],
+                                    id: 21, name: 'Jeanne DUPRAT', isExpanded: true, classes: ['duprat'],
+                                    children: [
+                                        {
+                                            id: 42, name: 'Bertrand DUPRAT', classes: ['duprat']
+                                        },
+                                        {
+                                            id: 43, name: 'Guilhommette BERGONGNON'
+                                        }
+                                    ]
                                 }
                             ]
                         },
